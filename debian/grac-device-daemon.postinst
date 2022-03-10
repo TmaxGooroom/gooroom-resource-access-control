@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+/bin/systemctl daemon-reload || true
+/bin/systemctl enable grac-device-daemon || true
+/bin/systemctl start grac-device-daemon || true
+/bin/systemctl reload grac-device-daemon || true
+
+exit 0

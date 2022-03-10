@@ -1,0 +1,161 @@
+gooroom-resource-access-control (1.4.3+grm3u1tos3) tmax-unstable; urgency=medium
+
+  [ taisun_park ]
+  * [5b7c89c] (debian/control) uploaders 추가, homepage 수정
+
+ -- taisun_park <taisun_park@tmax.co.kr>  Thu, 10 Mar 2022 13:23:00 +0900
+
+gooroom-resource-access-control (1.4.3+grm3u1tos2) tmax-unstable; urgency=medium
+
+  [ taisun_park ]
+  * [e5e220d] user id 가져올 때 service 체크하는 부분에 gdm에 대한 처리 추가
+
+ -- taisun_park <taisun_park@tmax.co.kr>  Mon, 07 Feb 2021 17:21:00 +0900
+
+gooroom-resource-access-control (1.4.3+grm3u1tos1) tmax-unstable; urgency=medium
+
+  [ jaejeon_lim ]
+  * change uploaders
+  * remove check ut_id value
+
+ -- Jaejeon Lim <jaejeon_lim@tmax.co.kr>  Tue, 28 Dec 2021 15:32:20 +0900
+
+gooroom-resource-access-control (1.4.3+grm3u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [ce7f3785] 3.0 first commit:change UI
+  * [b72cd27b] change 매체제어 편집기 to 매체제어 편집 in desktop file and network's default state(accept) in default rules
+  * [6bca798f] gooroom-3.0 static-code-analysis
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sun, 05 Dec 2021 14:45:22 +0900
+
+gooroom-resource-access-control (1.4.2+grm2u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [2a17cff0] Fixed the typo
+
+  [ hmkim ]
+  * [b500b639] change iptables-legacy to iptables
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 01 Oct 2021 20:22:29 +0900
+
+gooroom-resource-access-control (1.4.1+grm2u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [2b4f8a3a] remove server rules when using media api
+  * [2a74a150] change how to save grac-api rules
+  * [1d095a01] change /sbin/iptables-legacy to /usr/sbin/iptables-legacy
+
+  [ boyeon.choi ]
+  * [5a0622c4] Created help contents
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 11 May 2021 08:16:11 +0900
+
+gooroom-resource-access-control (1.4.0+grm2u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [02fcfc4d] Enable the help program
+
+  [ hmkim ]
+  * [06641111] remove reversing iptables list
+  * [4c8eb884] change iptables-restore => iptables-legacy
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 04 May 2021 19:38:57 +0900
+
+gooroom-resource-access-control (1.3.9+grm2u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [18f4a783] police issue(lightdm-autologin)
+  * [fbf14355] trivial fix
+  * [5339971b] check server certificate
+  * [c3ce275d] network v2.x
+  * [6d6810ec] fix 2988,2987,2961,2640
+  * [ad6b7286] fix 2592,2580
+  * [2182f865] fix 2985
+  * [189ac1a2] re-fix 2592
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 01 Apr 2021 11:32:54 +0900
+
+gooroom-resource-access-control (1.3.8+grm2u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [c18a7a54] add LSF_REGISTERED to do_api of grac_api
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 20 Nov 2020 11:43:12 +0900
+
+gooroom-resource-access-control (1.3.7+grm2u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [5d1d6dab] add load_rules at reload menu
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 20 Nov 2020 11:31:55 +0900
+
+gooroom-resource-access-control (1.3.6+grm2u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [2afdd298] ===== ADD LSF AND USB-WHITELIST =====
+  * [d1222f02] change how to find WIRELESS remove file
+  * [5641fcd0] split usb-keyboard/mouse and bluetooth-keyboard/mouse
+  * [fd49b954] add checking if bluetooth device is conneted
+  * [66766eed] change how to prevent bluetooth mouse/keyboard from usb mouse/keyboard disallow
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 02 Nov 2020 16:17:02 +0900
+
+gooroom-resource-access-control (1.3.5+grm2u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [fcde72e3] (CRITICAL) remove clipboard of grac but nsr clipboard is still working.
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 18 Sep 2020 15:59:32 +0900
+
+gooroom-resource-access-control (1.3.4+grm2u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [67466a62] added usb-network
+  * [db970780] added usb network rules
+  * [a73975b5] fixed usb_network.py
+  * [afb2af1f] changed title to Korean
+  * [8078a67f] reversed network rules
+  * [981970f4] fix dialog moving bug by menubar and toolbar
+  * [fb1db6bf] add scrollbar to media-grid of grac-editor
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 07 Jul 2020 14:49:49 +0900
+
+gooroom-resource-access-control (1.3.3+grm2u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [dc4373cb] fixed printer alert message comment
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 20 Feb 2020 19:18:03 +0900
+
+gooroom-resource-access-control (1.3.2+grm2u1) unstable; urgency=medium
+
+  [ hmkim ]
+  * [8abc5063] changed how to check remote user
+  * [7cadeaeb] fixed catch_user_id bug
+  * [bc00954b] changed bluetooth mac attr from uniq to name. fixed printer alert message bug.
+  * [77a55cf2] fixed bluetooth mac address bug
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 11 Feb 2020 11:38:14 +0900
+
+gooroom-resource-access-control (1.3.1+grm2u1) unstable; urgency=medium
+
+  * Initial Release
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Mon, 02 Dec 2019 11:45:55 +0900
